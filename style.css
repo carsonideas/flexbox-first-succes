@@ -90,12 +90,14 @@ text-align: left;
 
 color: rgb(180, 182, 184);
 }
-h3
+button
 {
   text-align: center;
  
   background-color: rgb(8, 108, 240);
-
+width: 100px;
+color: white;
+font-weight: bold;
 }
 img
 {
@@ -244,7 +246,7 @@ color: white;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: flex-start;
+align-items: center;
 }
 .blue-box
 {
@@ -259,12 +261,6 @@ h3
   height: 30px;
   text-align: center;
 margin-left: 70px;
-}
-h5
-{
-width: 110px;
-text-align: center;
-border-color: #e5e7eb;
 }
 h4
 {
@@ -283,4 +279,13 @@ h6
 h7
 {
   margin-left: 360px;
+}
+blue-box .button
+{
+  text-align: center;
+  background-color: rgb(8, 108, 240);
+width: 100px;
+color: white;
+font-weight: bold;
+
 }
